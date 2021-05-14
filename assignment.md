@@ -62,8 +62,9 @@ Your solution should include the following functionality:
   needed. Another developer should be able to continue where you left off
 - It should be possible to run the project (and all of its components) on any machine, including 
   our laptops
-- The assignment should nog take more than 6-8 hours to complete. It's up to you if you spend less 
-  or more time on it
+- This assignment was designed to be completed in 6-8h. The evaluation will take into account the 
+  choices you make and what you focus on given the time you have. However, it's up to you if you 
+  spend less or more time on it.
 - Please make sure the final commit to your repository is done at least 24 hours before the start 
   of your interview
 
@@ -86,6 +87,9 @@ The solution will be assessed on the following criteria:
 - What does your (internal) data model look like? How does your solution represent and store data?
 - Are there any clear bugs in your code?
 - How does the solution perform?
+- Can you clearly and concisely describe the process you have followed and the choices you have made?
+- Can you describe the biggest short-comings of your solution and which steps could be taken to 
+  improve on that?
 
 ## Additional information and assumptions
 
