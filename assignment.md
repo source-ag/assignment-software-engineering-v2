@@ -93,6 +93,6 @@ The solution will be assessed on the following criteria:
 
 ## Additional information and assumptions
 
-- The required raw data to test your solution can be found through this link: <insert link here>
+- The required raw data to test your solution can be found through this link: https://drive.google.com/drive/folders/1TV20EVuxcmaqro7e0HfmX2j6HtILNwXB?usp=sharing
 
 
