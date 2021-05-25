@@ -9,7 +9,7 @@ For this assignment the commands are:
  1. Create a bare clone of the repository.
     (This is temporary and will be removed so just do it wherever.)
     ```bash
-    git clone --bare git@github.com:source-ag/assignment-data-science.git
+    git clone --bare git@github.com:source-ag/assignment-software-engineering.git
     ```
 
  2. [Create a new private repository on Github](https://help.github.com/articles/creating-a-new-repository/) and give it a good name, for example                 `source-assignment-software-engineering`.
