@@ -34,7 +34,7 @@ Your solution should include the following functionality:
    functionality:
    
    - Expose the _latest_ weather conditions (i.e. show what's happening _now_)
-   - Expose the development of the weather parameters over the last 24h in 5 min increments
+   - Expose the development of the weather parameters over the last 24h in 15 min increments
    - Expose the average for each of the weather parameters for the last 24h
    - Expose the development of the weather parameters over the last 7 days in 1 day increments 
      (average per day)
