@@ -33,4 +33,4 @@ For this assignment the commands are:
     git clone git@github.com:<your_username>/source-assignment-software-engineering.git
     ```
 
- 6. Add the reviewers as collaborators to your new repository: DandyDev, uzitovb, paula13
+ 6. Add the reviewers as collaborators to your new repository: DonDebonair, clickery-buttony, PruijtMeister
