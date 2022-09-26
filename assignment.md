@@ -57,7 +57,7 @@ Your solution should include the following functionality:
 
 ### Non-functional requirements
 
-- Use Python 3.6 or higher
+- Use Python 3.10 or higher _or_ use Golang 1.19 or higher
 - Maintainability is favoured over performance. No complex performance optimizations should be 
   needed. Another developer should be able to continue where you left off
 - It should be possible to run the project (and all of its components) on any machine, including 
