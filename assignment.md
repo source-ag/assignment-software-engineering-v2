@@ -77,10 +77,11 @@ Your solution should include the following functionality:
 
 This assignment should be delivered in the following way:
 
-- All code is pushed to your private copy of this repository.
+- All code is pushed to your private fork of this repository.
 - Documentation is provided in the README.md on how the solution works, and how to run and test it.
 - Any information, (dummy)-data, files, and other assets that are needed to run this project, are 
   provided in this repository.
+- Please provide a copy of your entire repository to us as a [git bundle](https://stackoverflow.com/a/11795549) in an email attachment. You can create one using `git bundle create repo.bundle --all`.
 
 ## Assessment Criteria
 
