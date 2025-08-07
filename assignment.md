@@ -49,7 +49,7 @@ Implement a backend service with the following functionality:
 
 ## Deliverables
 
-- Commit your code to a private fork of this repo.
+- Commit your code to a [private fork](https://github.com/source-ag/assignment-software-engineering-v2/blob/main/duplicate-repository.md) of this repo.
 - Provide a `README.md` with:
   - Setup & run instructions
   - Testing instructions
