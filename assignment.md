@@ -29,7 +29,7 @@ A grower using this API should get trustworthy answers to questions like *"what 
 - Transform data into a clean, structured API response — don't just echo the ingestion format.
 - Handle duplicates, missing data, malformed data, and other edge cases gracefully.
 - Store data persistently (e.g. in a DB) so it's available between restarts.
-- Stations regularly drop offline for hours or days and then backfill, and some sensors report at irregular intervals. Re-ingesting a batch shouldn't corrupt the data or produce inconsistent aggregates.
+- Stations regularly drop offline for hours or days and then backfill, and some sensors report at irregular intervals. Handle this correctly.
 
 ### 3. Security & robustness
 
