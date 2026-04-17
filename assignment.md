@@ -44,7 +44,7 @@ Implement a backend service with the following functionality:
 
 - The code should be easy to understand and maintain. Performance is secondary.
 - The system should run cleanly on any machine (including ours).
-- You're encouraged to use LLM-assisted tools, but **you** own the code. Don't leave behind things you don't understand, and be ready to explain your implementation choices.
+- You're encouraged to use LLM-assisted tools, but **you** own the code. Don't leave behind things you don't understand, and be ready to explain your implementation choices. How you use AI is part of what we're evaluating — not just the output.
 - Timebox to ~6-8 hours. You don't need to cover every edge case — just be clear about trade-offs.
 
 ## Deliverables
@@ -54,6 +54,9 @@ Implement a backend service with the following functionality:
   - Testing instructions
   - Brief explanation of your architecture, assumptions, and trade-offs
   - An overview of next steps you would take if you had 3 months instead of 8 hours to work on this
+- Check in any context files you used to steer AI agents — AGENTS.md, CLAUDE.md, Cursor rules, system prompts, or whatever your tool uses. We don't care about the format, we just want to see what you gave the agent to work with.
+- Export and check in a log or transcript of your AI agent sessions. A raw dump is fine — we want to see how you actually used the tool, not a cleaned-up summary of it.
+- Record a short video (2–3 min) walking through one non-obvious design decision: what alternatives you considered and why you chose what you did. A Loom or similar is fine. Include the link in your README.
 - Send us a [`.git bundle`](https://stackoverflow.com/a/11795549) via email
 
 ## Evaluation Criteria
@@ -67,6 +70,7 @@ We'll assess your work based on:
 - Handling of real-world issues (e.g. invalid input, missing or duplicate data)
 - Testing strategy (e.g. unit vs. integration tests, test coverage)
 - Your ability to explain your choices and identify trade-offs or next steps
+- Effective use of AI tools — did you use them well? Can you explain the choices you made, including where AI helped and where you had to intervene or override it?
 
 We adjust expectations based on experience level. A staff/senior engineer is expected to cover more ground than someone early in their career — especially now that LLMs can help you move faster.
 
