@@ -54,12 +54,8 @@ Implement a backend service with the following functionality:
   - Testing instructions
   - Brief explanation of your architecture, assumptions, and trade-offs
   - An overview of next steps you would take if you had 3 months instead of 8 hours to work on this
-  - How you used AI tools: what you delegated, what you kept manual, and one case where the AI got something wrong and how you caught or fixed it
-- Provide an `AGENTS.md` that documents your AI workflow in more detail:
-  - Which tools you used (e.g. Claude, Copilot, Cursor) and how
-  - Key prompts or prompting strategies that were particularly effective or ineffective
-  - Which parts of the codebase were largely AI-generated vs. hand-written
-  - Any custom context files, system prompts, or agent configurations you used
+- Check in any context files you used to steer AI agents — AGENTS.md, CLAUDE.md, Cursor rules, system prompts, or whatever your tool uses. We don't care about the format, we just want to see what you gave the agent to work with.
+- Export and check in a log or transcript of your AI agent sessions. A raw dump is fine — we want to see how you actually used the tool, not a cleaned-up summary of it.
 - Record a short video (2–3 min) walking through one non-obvious design decision: what alternatives you considered and why you chose what you did. A Loom or similar is fine. Include the link in your README.
 - Send us a [`.git bundle`](https://stackoverflow.com/a/11795549) via email
 
