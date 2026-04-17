@@ -22,11 +22,14 @@ Implement a backend service with the following functionality:
   - 7-day time series view (1-day resolution)
   - 7-day average per parameter
 
+A grower using this API should get trustworthy answers to questions like *"what was the average temperature yesterday?"*.
+
 ### 2. Data handling
 
 - Transform data into a clean, structured API response — don't just echo the ingestion format.
 - Handle duplicates, missing data, malformed data, and other edge cases gracefully.
 - Store data persistently (e.g. in a DB) so it's available between restarts.
+- It's normal for a station to drop offline for hours or days and then backfill. Re-ingesting the same batch shouldn't corrupt the data or produce inconsistent aggregates.
 
 ### 3. Security & robustness
 
@@ -52,7 +55,8 @@ Implement a backend service with the following functionality:
 - Provide a `README.md` with:
   - Setup & run instructions
   - Testing instructions
-  - Brief explanation of your architecture, assumptions, and trade-offs
+  - Brief explanation of your architecture
+  - A decisions log — the key decisions you made, why, and the trade-offs you accepted. Cover scope, data modeling, and anything ambiguous you had to resolve. Aim for depth over breadth; 5-8 concrete decisions is a good target.
   - An overview of next steps you would take if you had 3 months instead of 8 hours to work on this
 - Send us a [`.git bundle`](https://stackoverflow.com/a/11795549) via email
 
